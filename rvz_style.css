@@ -1,0 +1,71 @@
+/***
+* Styling for Revyooz reviews
+***************************************/
+
+
+.revyooz-review{
+	float: right; 
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: 5px; 
+	padding-top: 0;
+	width: 200px;
+	background-color:#fff;
+}
+
+.revyooz-display-left{
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+
+.revyooz-review ul {
+	list-style-type:none;	
+	padding:2px 0 0 0; 
+	vertical-align: middle;
+}
+
+.revyooz-review li {
+	border-bottom: 1px solid #E9E9E9;
+	padding-bottom: 6px;
+	font-family: georgia;
+	font-size: 12px;
+	font-style: italic;
+
+
+}
+
+/* STYLE THE TITLES BUT NOT THE STARS THEMSELVES - TARGET ONLY THE CATEGORIES/FEATURES */
+
+.revyooz-review li:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;	
+}
+
+.revyooz-review li ul li{
+	border-bottom: 0;
+
+}
+
+.revyooz-review li span {
+	display: inline-block;
+	width: 82px;
+	font-family: georgia;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.rvz-star-rating {
+	display: inline;
+}
+.rvz-star-rating li{
+	width: 13px;
+	height: 13px;
+	background: transparent url('img/bluestar.png') no-repeat -26px 0;
+	display: inline-block;
+}
+
+.rvz-star-rating li.rated{
+	background-position: 0 0;
+}
